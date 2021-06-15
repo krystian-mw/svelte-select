@@ -19,7 +19,7 @@
   export let handleFocus;
   export let _inputAttributes;
   export let filterText;
-  export let placeholderText;
+  export let placeholder;
   export let inputStyles;
   export let showSelectedItem;
   export let isWaiting;
@@ -66,7 +66,7 @@
       bind:this={input}
       on:focus={handleFocus}
       bind:value={filterText}
-      placeholder={placeholderText}
+      {placeholder}
       style={inputStyles}
       disabled
     />
@@ -76,7 +76,7 @@
       bind:this={input}
       on:focus={handleFocus}
       bind:value={filterText}
-      placeholder={placeholderText}
+      {placeholder}
       style={inputStyles}
     />
   {/if}

@@ -711,7 +711,7 @@
     isSearchable,
     isWaiting,
     multiFullItemClearable,
-    placeholderText,
+    placeholder,
     selectedValue,
     showChevron,
     showIndicator,
